@@ -1,0 +1,6 @@
+sample	pos	ref	var
+seq1	1438	A	G
+seq1	2706	A	G
+seq1	3450	C	T
+seq1	4769	A	G
+seq1	7028	C	T

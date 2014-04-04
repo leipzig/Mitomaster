@@ -1,0 +1,22 @@
+package Mitoprocess::LocalSettings;
+require Exporter;
+our @ISA = qw(Exporter);
+#remember to export these from MitoprocessConfig too
+our @EXPORT =
+  qw(DB_PATH DB_USER DB_PASS SITE_NAME WEB_HOME MITOMAP_HOME CGI_SCRIPTALIAS TEMP_PICS TEMP_PICS_PATH TEMP_HAPLO_PATH GENOMETOOLS_HOME HAPLOGREP_HOME UPLOADDIR GFFDIR);
+
+use constant DB_PATH        => "dbi:Pg:dbname=mito;host=host";
+use constant DB_USER        => "admin";
+use constant DB_PASS        => "password";
+
+use constant GENOMETOOLS_HOME => "/var/www/html/mitomaster/gt/";
+use constant SITE_NAME        => 'Mitomaster';
+use constant WEB_HOME         => 'http://resmitod.research.chop.edu/mitomaster/';
+use constant MITOMAP_HOME     => 'http://resmitod.research.chop.edu/';
+use constant TEMP_PICS        => WEB_HOME . "/tmpgt";
+use constant TEMP_PICS_PATH   => "/var/www/html/mitomaster/tmpgt/";
+use constant TEMP_HAPLO_PATH   => "/var/www/html/mitomaster/tmphaplo/";
+use constant UPLOADDIR        => "/var/www/html/mitomaster/uploads/";
+use constant GFFDIR           => "/var/www/html/mitomaster/tmp_gff3/";
+use constant CGI_SCRIPTALIAS  => 'mitomasterdev';
+use constant HAPLOGREP_HOME => "/var/www/html/mitomaster/haplogrepCommandline16.jar";

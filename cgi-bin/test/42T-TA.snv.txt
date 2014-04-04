@@ -1,0 +1,5 @@
+sample pos ref var
+Sample1 73    A   G
+Sample1 146   T   C
+Sample2 263   A   :
+Sample2 709   :   G
