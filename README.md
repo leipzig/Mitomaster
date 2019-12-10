@@ -1,7 +1,7 @@
-##Mitomaster
+## Mitomaster
 Source code for Mitomaster http://mitomaster.mitomap.org/
 
-####Stuff you would need to install this web app should you be so foolish to try
+#### Stuff you would need to install this web app should you be so foolish to try
    * [Mitomaster perl module](https://github.com/leipzig/Bio_Mitomaster)
    * CLI Haplogrep.jar - contact hansi.weissensteiner@i-med.ac.at for this
    * [Twitter Bootstrap](http://getbootstrap.com/)
